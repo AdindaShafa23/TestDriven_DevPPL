@@ -1,12 +1,9 @@
 # TDD Exercises (C# + NUnit)
 
-Proyek ini menyiapkan *template* latihan TDD untuk tiga soal:
+berisi tiga soal
 1) `IsPrime(int n)`
 2) `CalculateDiscount(total, isMember)`
 3) `FizzBuzz(int n)`
-
-## Cara Menjalankan
-Pastikan .NET SDK 8.0 sudah terpasang.
 
 ```bash
 # dari folder root proyek
@@ -20,7 +17,7 @@ AppLib/        -> kode produksi
 Tests/         -> unit test NUnit
 ```
 
-## Catatan TDD (Ringkas)
+## notes
 
 ### Soal 1 – IsPrime
 - **RED**: Tambahkan test untuk 2→true, 4→false, 7→true. Semua gagal karena implementasi belum ada.
